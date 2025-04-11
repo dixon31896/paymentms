@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "dixon318/orderms"
+        DOCKER_IMAGE = "dixon318/paymentms"
         KUBE_CONFIG = "/home/ubuntu/.kube/config"
         AWS_REGION = "us-east-1"
         EKS_CLUSTER_NAME = "order-cluster"
